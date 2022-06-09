@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "tamopstfstates"
     storage_account_name = "tfstatedevops"
     container_name       = "terraformgithubexample"
-    key                  = "sp=r&st=2022-06-09T10:51:33Z&se=2022-06-09T18:51:33Z&spr=https&sv=2021-06-08&sr=c&sig=Br%2Bg8z1cR3eYQL3%2BCvRke92xrbCPzHBxk85gPXLsrrQ%3D"
+    key                  = "terraformgithubexample.tfstate"
   }
 }
 
